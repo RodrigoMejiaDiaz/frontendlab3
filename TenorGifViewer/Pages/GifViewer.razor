@@ -1,0 +1,33 @@
+@page "/gifviewer"
+@inject IGifService GifService
+
+<h3>Visor de GIF</h3>
+
+<div class="form-group">
+    <input type="text" class="form-control" @bind="searchQuery" placeholder="Buscar GIFs..." />
+    <button class="btn btn-primary" @onclick="SearchGifs">Buscar</button>
+</div>
+
+@if (gifs != null)
+{
+    @foreach (var gif in gifs)
+    {
+        <img src="@gif.WebmPreviewUrl" alt="GIF" /><br />
+    }
+}
+else
+{
+    <p>No se encontraron GIFs.</p>
+}
+
+@code {
+    private List<GifModel> gifs;
+        private string searchQuery = "";
+    
+
+    private async Task SearchGifs(){
+         var apiUrl = "api/gif/" + searchQuery;
+        gifs = await GifService.GetGifsAsync(apiUrl);
+    }
+
+}

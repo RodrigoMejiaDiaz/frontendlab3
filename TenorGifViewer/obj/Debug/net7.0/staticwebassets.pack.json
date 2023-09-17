@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\estudios\\tecsup\\S6\\aplicaciones empresariales avanzado\\3\\frontend\\TenorGifViewer\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.TenorGifViewer.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.TenorGifViewer.props",
+      "PackagePath": "build\\TenorGifViewer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.TenorGifViewer.props",
+      "PackagePath": "buildMultiTargeting\\TenorGifViewer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.TenorGifViewer.props",
+      "PackagePath": "buildTransitive\\TenorGifViewer.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

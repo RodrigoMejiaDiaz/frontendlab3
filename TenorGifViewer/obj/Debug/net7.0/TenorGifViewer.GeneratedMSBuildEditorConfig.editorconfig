@@ -1,0 +1,41 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TenorGifViewer
+build_property.RootNamespace = TenorGifViewer
+build_property.ProjectDir = e:\estudios\tecsup\S6\aplicaciones empresariales avanzado\3\frontend\TenorGifViewer\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = e:\estudios\tecsup\S6\aplicaciones empresariales avanzado\3\frontend\TenorGifViewer
+build_property._RazorSourceGeneratorDebug = 
+
+[e:/estudios/tecsup/S6/aplicaciones empresariales avanzado/3/frontend/TenorGifViewer/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[e:/estudios/tecsup/S6/aplicaciones empresariales avanzado/3/frontend/TenorGifViewer/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[e:/estudios/tecsup/S6/aplicaciones empresariales avanzado/3/frontend/TenorGifViewer/Pages/GifViewer.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2lmVmlld2VyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[e:/estudios/tecsup/S6/aplicaciones empresariales avanzado/3/frontend/TenorGifViewer/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[e:/estudios/tecsup/S6/aplicaciones empresariales avanzado/3/frontend/TenorGifViewer/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[e:/estudios/tecsup/S6/aplicaciones empresariales avanzado/3/frontend/TenorGifViewer/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
