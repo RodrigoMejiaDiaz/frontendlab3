@@ -20,7 +20,7 @@ public class GifService : IGifService
 
     public async Task<List<GifModel>> GetGifsAsync(string searchQuery)
     {
-        var resposne = await _httpClient.GetAsync($"http://ip172-18-0-10-ck336ussnmng00d0h0j0-5200.direct.labs.play-with-docker.com/{searchQuery}");
+        var resposne = await _httpClient.GetAsync($"http://ip172-18-0-17-ck46qd8gftqg00bsbseg-5200.direct.labs.play-with-docker.com/{searchQuery}");
         resposne.EnsureSuccessStatusCode();
 
         return await resposne.Content.ReadFromJsonAsync<List<GifModel>>();

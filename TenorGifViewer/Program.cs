@@ -6,7 +6,7 @@ builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddScoped(sp => {
     var httpClient = new HttpClient {
-        BaseAddress = new Uri("http://ip172-18-0-10-ck336ussnmng00d0h0j0-5200.direct.labs.play-with-docker.com/")
+        BaseAddress = new Uri("http://ip172-18-0-17-ck46qd8gftqg00bsbseg-5200.direct.labs.play-with-docker.com/")
     };
     return httpClient;
 });
